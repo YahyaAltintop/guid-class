@@ -17,7 +17,3 @@ class Guid {
     }
 
 }
-
-console.time("w");
-Guid.NewGuid();
-console.timeEnd("w");
