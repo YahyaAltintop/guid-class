@@ -29,4 +29,4 @@ Guid.NewGuid();
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/YahyaAltintop/guid-class/blob/master/LICENSE)
