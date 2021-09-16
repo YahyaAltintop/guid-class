@@ -25,7 +25,7 @@ Guid.NewGuid();
 ## Features
 
 - Impossible dublicate, because it's works based on milliseconds
-- It usually runs between 0.1ms and 0.5ms
+- It usually executed between 0.1ms and 0.5ms
 
 ## License
 
