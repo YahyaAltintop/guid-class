@@ -26,6 +26,7 @@ Guid.NewGuid();
 
 - Impossible dublicate, because it's works based on milliseconds
 - It usually executed between 0.1ms and 0.5ms
+- Support node.js and client side
 
 ## License
 
