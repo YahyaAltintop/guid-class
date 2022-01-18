@@ -5,7 +5,7 @@ class Guid {
 
     static NewGuid() {
 
-        return Array.from(Date.now() + String(Math.round(Math.random() * (999 - 100) + 100))).map((x, i) => {
+        return Array.from(Date.now() + String(Math.round(Math.random() * (999 - 100) + 100)),(x, i) => {
 
             return (x + "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"[~~(Math.random() * 52)] +
                 (i == 3 || i == 5 || i == 7 || i == 9 ? "-" : "")
